@@ -3,5 +3,186 @@
         "title": "Next Novels - OPDS Catalog",
         "conformsTo": "https://opds-spec.org/opds-2.0"
     },
-    "publications": []
+    "publications": [
+        {
+            "metadata": {
+                "title": "Sparks Of Tomorrow Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-sparks-of-tomorrow-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-sparks-of-tomorrow-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "I Became A Legend After My 10 Year Long Last Stand Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-i-became-a-legend-after-my-10-year-long-last-stand-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-i-became-a-legend-after-my-10-year-long-last-stand-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "The Cat And The Dragon Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-the-cat-and-the-dragon-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-the-cat-and-the-dragon-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "She Recommends The Harem Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-she-recommends-the-harem-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-she-recommends-the-harem-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "The Relationship Of Play Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-the-relationship-of-play-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-the-relationship-of-play-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "The Indecent Games Of The Public Morals Committee Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-the-indecent-games-of-the-public-morals-committee-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-the-indecent-games-of-the-public-morals-committee-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "I Reincarnated As The Villainous Young Master Who Corrupts The Counts Daughter Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-i-reincarnated-as-the-villainous-young-master-who-corrupts-the-counts-daughter-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-i-reincarnated-as-the-villainous-young-master-who-corrupts-the-counts-daughter-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "The Villager Of Level 999 Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-the-villager-of-level-999-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-the-villager-of-level-999-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        },
+        {
+            "metadata": {
+                "title": "The Ogres Bride Novela Ligera",
+                "numberOfItems": 1
+            },
+            "links": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://nextnovels.com/descargar-the-ogres-bride-novela-ligera-en-espanol/"
+                }
+            ],
+            "readingOrder": [
+                {
+                    "type": "application/epub+zip",
+                    "href": "https://nextnovels.com/descargar-the-ogres-bride-novela-ligera-en-espanol/",
+                    "title": "Ver / Descargar Novela"
+                }
+            ]
+        }
+    ]
 }
