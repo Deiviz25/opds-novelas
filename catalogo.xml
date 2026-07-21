@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
-    <title>Next Novels - OPDS Catalog</title>
-    <id>urn:uuid:next-novels-opds</id>
+    <title>Next Novels - Índice Visual OPDS</title>
+    <id>urn:uuid:next-novels-visual-opds</id>
     <updated>2026-01-01T00:00:00Z</updated>
     <author>
         <name>Deiviz25</name>
     </author>
     <entry>
-        <title>Sparks Of Tomorrow Novela Ligera</title>
+        <title>Descargar Sparks of Tomorrow Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-sparks-of-tomorrow-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Quisiera que lo recordaras. La luz existe porque alguien la encendió. «¿Morirías conmigo y me llevarías al Paraíso de la Tierra Pura?». Año 40…</summary>
@@ -17,7 +17,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Sparks-of-Tomorrow-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Became A Legend After My 10 Year Long Last Stand Novela Ligera</title>
+        <title>Descargar I Became a Legend after My 10 Year-Long Last Stand Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-i-became-a-legend-after-my-10-year-long-last-stand-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Un hombre que luchó en solitario durante diez años, cuando se da cuenta, ¡¿está en un estado similar al de Urashima Taro?! El grupo del mago…</summary>
@@ -27,7 +27,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-a-Legend-after-My-10-Year-Long-Last-Stand-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Cat And The Dragon Novela Ligera</title>
+        <title>Descargar The Cat and the Dragon Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-cat-and-the-dragon-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">En lo profundo del bosque, un dragón vivía junto a unos gatos que dominaban la magia. Los gatos llamaban al dragón, quien los había protegido…</summary>
@@ -37,7 +37,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Cat-and-the-Dragon-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>She Recommends The Harem Novela Ligera</title>
+        <title>Descargar She Recommends the Harem Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-she-recommends-the-harem-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Me llamo Taiki Komada. Soy un m0nstru0 de resistencia física y, bueno, el tamaño de lo que tengo tampoco está mal, pero mi cara es promedio…</summary>
@@ -47,7 +47,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/02/She-Recommends-the-Harem-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Relationship Of Play Novela Ligera</title>
+        <title>Descargar The Relationship of Play Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-relationship-of-play-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡Una comedia romántica donde todos esconden secretos y mantienen relaciones por “diversión”, comienza! Kotarou Tokiwa, un fanático empedernido…</summary>
@@ -57,7 +57,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/11/The-Relationship-of-Play-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Indecent Games Of The Public Morals Committee Novela Ligera</title>
+        <title>Descargar The Indecent Games of the Public Morals Committee Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-indecent-games-of-the-public-morals-committee-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡Protejamos la moral de la depravación! ¡Una comedia romántica descarada que esta entre el amor puro y la lujuria! Mi vida cotidiana, que comenzó…</summary>
@@ -67,7 +67,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Indecent-Games-of-the-Public-Morals-Committee-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Reincarnated As The Villainous Young Master Who Corrupts The Counts Daughter Novela Ligera</title>
+        <title>Descargar I Reincarnated as the Villainous Young Master Who Corrupts the Count’s Daughter Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-i-reincarnated-as-the-villainous-young-master-who-corrupts-the-counts-daughter-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">“Lord Nord… ¿le gustaría un poco de leche esta mañana?” Reencarné en el mundo erótico que acababa de jugar, “La Academia del Harem del Héroe…</summary>
@@ -77,7 +77,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/08/I-Reincarnated-as-the-Villainous-Young-Master-Who-Corrupts-the-Counts-Daughter-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Villager Of Level 999 Novela Ligera</title>
+        <title>Descargar The Villager of Level 999 Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-villager-of-level-999-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Mundo de fantasía: Earth Clear. En este mundo, cada persona nace con un rol que define su forma de vida: miembro de la realeza, héroe, sabio…</summary>
@@ -87,7 +87,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Villager-of-Level-999-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Ogres Bride Novela Ligera</title>
+        <title>Descargar The Ogre’s Bride Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-ogres-bride-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">En Japón, donde humanos y ayakashis coexisten, ser elegida como la novia de un ayakashi poderoso era un sueño y un gran honor. Yuzu, una…</summary>
@@ -97,7 +97,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Ogres-Bride-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Secret Life Of An Honor Student Novela Ligera</title>
+        <title>Descargar The Secret Life Of An Honor Student Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-secret-life-of-an-honor-student-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">“Si mantienes mi cuenta secreta oculta, haré algo bueno por ti, ¿de acuerdo?” “Noventa por ciento impuro, diez por ciento amor puro”: ese fue el…</summary>
@@ -107,7 +107,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Secret-Life-Of-An-Honor-Student-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Forsaken Saintess And Her Foodie Roadtrip In Another World Novela Ligera</title>
+        <title>Descargar The Forsaken Saintess and her Foodie Roadtrip in Another World Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-forsaken-saintess-and-her-foodie-roadtrip-in-another-world-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Rin Takanashi, una cuidadora de mediana edad, quedó atrapada en una «Convocación de Santos» en la que la arrojaron como si fuera basura. Pero con…</summary>
@@ -117,7 +117,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Forsaken-Saintess-and-her-Foodie-Roadtrip-in-Another-World-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>You Fireworks And Our Promise Novela Ligera</title>
+        <title>Descargar You, Fireworks, and Our Promise Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-you-fireworks-and-our-promise-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Este sentimiento, trascendiendo el tiempo, se conecta contigo. «Siempre había querido conocerte.» En la primavera de su primer año de instituto…</summary>
@@ -127,7 +127,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/You-Fireworks-and-Our-Promise-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Henjin No Salad Bowl Novela Ligera</title>
+        <title>Descargar Henjin no Salad Bowl Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-henjin-no-salad-bowl-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Kaburaya Sosuke, un detective empobrecido, conoció a Sarah, una princesa de otro mundo con poderes mágicos. Sarah empezó a vivir con Sosuke…</summary>
@@ -137,7 +137,27 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/08/Henjin-no-Salad-Bowl-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Water Magician Novela Ligera</title>
+        <title>Descargar Halo: Edge of Dawn Novela en Español</title>
+        <id>https://nextnovels.com/descargar-halo-edge-of-dawn-novela-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">«2560. Tras eliminar al Jefe de guerra Escharum y sumir en el caos a los líderes de los Desterrados, el Jefe Maestro continúa la lucha en…</summary>
+        <link href="https://nextnovels.com/descargar-halo-edge-of-dawn-novela-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1W3ng4F-IAtvnaXWxVbkoXw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Halo-Edge-of-Dawn-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Halo-Edge-of-Dawn-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Dungeon ni Deai o Motomeru no wa Machigatte Iru Darou ka Novela Ligera en Español</title>
+        <id>https://nextnovels.com/dungeon-ni-deai-o-motomeru-no-wa-machigatte-iru-darou-ka-novela-ligera-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">¿Está mal enfrentar los peligros de la mazmorra solo, en un gremio de un solo miembro bendecido por una diosa fracasada? Tal vez. ¿Está mal soñar…</summary>
+        <link href="https://nextnovels.com/dungeon-ni-deai-o-motomeru-no-wa-machigatte-iru-darou-ka-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1JwgiRvVxD5zu1D3GHIkg2w" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/05/Dungeon-ni-Deai-o-Motomeru-no-wa-Machigatte-Iru-Darou-ka-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/05/Dungeon-ni-Deai-o-Motomeru-no-wa-Machigatte-Iru-Darou-ka-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar The Water Magician Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-water-magician-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Ryo está encantado de reencarnarse en el fantástico mundo de Phi, donde cree que podrá llevar una vida tranquila aprendiendo a usar su recién…</summary>
@@ -147,7 +167,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/09/The-Water-Magician-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Love Ignorant Abandoned Jk Novela Ligera</title>
+        <title>Descargar Love-Ignorant Abandoned JK Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-love-ignorant-abandoned-jk-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Natsuki Souta, un oficinista cuya prometida le fue infiel, termina ayudando a Kanzaki Airi, una estudiante de secundaria que se escapó de casa…</summary>
@@ -157,7 +177,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/04/Love-Ignorant-Abandoned-JK-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Mitsubas Stories Novela Ligera</title>
+        <title>Descargar Urgent! The Female CEO Turned into a Cat and Refused to Leave my House! Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-urgent-the-female-ceo-turned-into-a-cat-and-refused-to-leave-my-house-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Diario de Su Yan: Mi nombre es Su Yan, un empleado ordinario de Morningstar Financial. Encontré una gata calicó; es linda, pero tiene mal genio…</summary>
+        <link href="https://nextnovels.com/descargar-urgent-the-female-ceo-turned-into-a-cat-and-refused-to-leave-my-house-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1kV0YdcJf6zwICrNvVhYD_w" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Urgent-The-Female-CEO-Turned-into-a-Cat-and-Refused-to-Leave-my-House-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Urgent-The-Female-CEO-Turned-into-a-Cat-and-Refused-to-Leave-my-House-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Mitsuba’s Stories Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-mitsubas-stories-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Al despertar de un largo letargo con una misteriosa sensación de omnipotencia, Mitsuba se da cuenta de que su madrastra no la quiere. Gracias…</summary>
@@ -167,7 +197,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/09/Mitsubas-Stories-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Schwarzes Marken Novela Ligera</title>
+        <title>Descargar Schwarzes Marken Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-schwarzes-marken-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Yo quería protegerte… Alemania del Este, bajo la invasión de la especie de origen extraterrestre BETA, continuaba librando una sangrienta guerra de…</summary>
@@ -177,7 +207,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Schwarzesmarken-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Devil Princess Novela Ligera</title>
+        <title>Descargar The Devil Princess Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-devil-princess-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Tuvo un sueño: el mundo rebosaba de luz. Familia. Escuela. Amigos. Trenes. Autobuses. Películas. Libros. En ese mundo de luz, creció hasta la…</summary>
@@ -187,7 +217,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2022/11/The-Devil-Princess-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Arent You Embarrassed To Lose To A Maid Novela Ligera</title>
+        <title>Descargar Aren’t you Embarrassed to Lose to a Maid? Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-arent-you-embarrassed-to-lose-to-a-maid-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">La sirvienta de baja cuna Lotte, incapaz de encajar en su entorno laboral debido a la diferencia abismal de estutus entre ella y sus compañeras…</summary>
@@ -197,7 +227,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Arent-you-Embarrassed-to-Lose-to-a-Maid-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Re Zero Novela Ligera</title>
+        <title>Descargar Re Zero Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-re-zero-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">De repente, un estudiante de instituto, Subaru Natsuki, ha sido invocado a otro mundo cuando volvía de la tienda. Con la mayor crisis de su vida al…</summary>
@@ -207,7 +237,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2021/12/Re-Zero-e1641220480303.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Oblivious Saint Cant Contain Her Power Novela Ligera</title>
+        <title>Descargar The Oblivious Saint Can’t Contain Her Power Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-oblivious-saint-cant-contain-her-power-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">El duque tiene dos hijas: Flora, que es hermosa y una candidata a ser santa, y Carolina, que es poco agraciada y carece de talento. Un día, con…</summary>
@@ -217,7 +247,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Oblivious-Saint-Cant-Contain-Her-Power-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Victoria Of Many Faces Novela Ligera</title>
+        <title>Descargar Victoria of Many Faces Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-victoria-of-many-faces-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Moldeada desde la infancia para ser una agente encubierta de alto nivel, Chloe pasa sus días llevando a cabo misiones secretas para el…</summary>
@@ -227,7 +257,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Victoria-of-Many-Faces-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Too Perfect Saint Novela Ligera</title>
+        <title>Descargar The Too-Perfect Saint Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-too-perfect-saint-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Filía, nacida en una familia de santos, era considerada por sus padres como una niña seria, sin encanto y aburrida. La sometieron a un entrenamiento…</summary>
@@ -237,7 +267,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/04/The-Too-Perfect-Saint-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Slime Taoshite 300 Nen Shiranai Uchi Ni Level Max Ni Nattemashita Novela Ligera</title>
+        <title>Descargar Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">La ordinaria Azusa Aizawa, murió por exceso de trabajo. Por eso, decidió tener una vida calmada en la montaña, como bruja inmortal. Sus ingresos…</summary>
@@ -247,7 +277,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2024/08/Slime-Taoshite-300-Nen-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Sword Art Online Novela Ligera</title>
+        <title>Descargar Sword Art Online Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-sword-art-online-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Sword Art Online, el juego de realidad virtual más reciente en el mercado, Fue tan deseado en su lanzamiento, que sus reservas se agotaron casi…</summary>
@@ -257,7 +287,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2021/12/1519825649-e1641220496808.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Reincarnated Into A Game As The Heros Friend Novela Ligera</title>
+        <title>Descargar Reincarnated Into a Game as the Hero’s Friend Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-reincarnated-into-a-game-as-the-heros-friend-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Algún día, el héroe Mazel luchará contra el Señor de los Demonios con el destino del reino en juego. Pero hasta ese día… ¡más le vale llevar…</summary>
@@ -267,7 +297,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/11/Reincarnated-Into-a-Game-as-the-Heros-Friend-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>All Works Maid Novela Ligera</title>
+        <title>Descargar All-Works Maid Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-all-works-maid-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">«¡Voy a convertirme en la mejor sirvienta del mundo!» Con su falda en blanco y negro ondeando al viento, la joven gritó con determinación…</summary>
@@ -277,7 +307,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/09/All-Works-Maid-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>And You Thought There Is Never A Girl Online Novela Ligera</title>
+        <title>Descargar And You Thought There is Never a Girl Online? Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-and-you-thought-there-is-never-a-girl-online-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Hideki Nishimura es un joven que se confesó a quien creía que era una chica en Internet, pero resultó ser un chico. Este hecho le marcó y lo…</summary>
@@ -287,7 +317,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2022/08/01-31.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Secretly Looking To Connect With Rom Com Fans Novela Ligera</title>
+        <title>Descargar #Secretly Looking to Connect with Rom-Com Fans Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-secretly-looking-to-connect-with-rom-com-fans-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡Una comedia romántica juvenil para ti, que amas las romcoms y quieres apoyar el amor de todos! «Más que enamorarme yo, me divierte ver a…</summary>
@@ -297,7 +327,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Secretly-Looking-to-Connect-with-Rom-Com-Fans-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>When I Said I Want A Beautiful And Rich Girlfriend A Girl With Circumstances Showed Up Novela Ligera</title>
+        <title>Descargar When I Said, “I Want a Beautiful and Rich Girlfriend,” a Girl with Circumstances Showed Up Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-when-i-said-i-want-a-beautiful-and-rich-girlfriend-a-girl-with-circumstances-showed-up-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">[Añadido] Volumen 04 (Final) – PDF…</summary>
@@ -307,7 +337,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/02/When-I-Said-I-Want-a-Beautiful-and-Rich-Girlfriend-a-Girl-with-Circumstances-Showed-Up-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Ts Reincarnation Beautiful Girl Netora Reiko Wants To Be Cuckolded Novela Ligera</title>
+        <title>Descargar TS Reincarnation Beautiful Girl Netora Reiko Wants to Be Cuckolded Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-ts-reincarnation-beautiful-girl-netora-reiko-wants-to-be-cuckolded-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">“¡Sobre todo, quiero convertirme en una heroína de NTR!” En su vida pasada, fue un vil villano que destr0z0 a innumerables parejas. Ahora…</summary>
@@ -317,7 +347,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/02/TS-Reincarnation-Beautiful-Girl-Netora-Reiko-Wants-to-Be-Cuckolded-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Love Unseen Beneath The Clear Night Sky Novela Ligera</title>
+        <title>Descargar Love Unseen Beneath the Clear Night Sky Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-love-unseen-beneath-the-clear-night-sky-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">El reservado estudiante universitario Kakeru Sorano conoce en la fiesta de bienvenida a los nuevos ingresantes a la universidad a Koharu Fuyutsuki…</summary>
@@ -327,7 +357,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/09/Toumei-na-Yoru-ni-Kakeru-Kimi-to-Me-ni-Mienai-Koi-wo-Shita-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Even A Replica Falls In Love Novela Ligera</title>
+        <title>Descargar Even A Replica Falls In Love Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-even-a-replica-falls-in-love-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">En días que no se siente bien, días de tedioso trabajo de guardia, en días de exámenes regulares… En días en que ir a la escuela resulta una…</summary>
@@ -337,7 +367,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2024/05/Replica-datte-Koi-wo-Suru-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Class De 2 Banme Ni Kawaii Onnanoko To Tomodachi Ni Natta Novela Ligera</title>
+        <title>Descargar Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Yo, Maehara Maki, alguien que no podía hacer conocidos ni amigos en la preparatoria, por fin tenía a alguien con quien salir fuera de clase. Una chica…</summary>
@@ -347,7 +377,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2024/10/Class-de-2-banme-ni-Kawaii-Onnanoko-to-Tomodachi-ni-Natta-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Who Longs To Be A Dependent Have Decided To Be Owned By A Yandere Novela Ligera</title>
+        <title>Descargar I, Who Longs To Be A Dependent, Have Decided To Be Owned By A Yandere Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-i-who-longs-to-be-a-dependent-have-decided-to-be-owned-by-a-yandere-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Si no quieres trabajar en el futuro ¿Qué tal si una yandere te enci3rr4? Akira Kiritani, un estudiante de preparatoria perezoso tiene una condición…</summary>
@@ -357,7 +387,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/04/I-Who-Longs-To-Be-A-Dependent-Have-Decided-To-Be-Owned-By-A-Yandere-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Tensei Shitara Slime Datta Ken Novela Ligera</title>
+        <title>Descargar Tensei Shitara Slime Datta Ken Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-tensei-shitara-slime-datta-ken-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Saturou Mikai de 37 años, un ordinario trabajador de una corporación que vive en Tokio. Aunque no tiene novia, está casi satisfecho con su vida actual…</summary>
@@ -367,7 +397,77 @@
         <link href="https://nextnovels.com/wp-content/uploads/2021/12/Another-vol-01-4-e1641220463278.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Beautiful Archery Club Senpai Is Sleeping In My Room With Her Tummy Out Novela Ligera</title>
+        <title>Descargar When I Meet The Moon Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-when-i-meet-the-moon-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">El día que Yun Li decidió dejar de intentar conquistar a Fu Shize, borró entre lágrimas toda su información de contacto. Más tarde, un día en…</summary>
+        <link href="https://nextnovels.com/descargar-when-i-meet-the-moon-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1JtdpkzquV51lu8fJ-qjXZw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Folding-Moon-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Folding-Moon-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Genius Girlfriend Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-genius-girlfriend-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Hay muchas razones para amar a alguien. Si unas simples medicinas elaboradas con hierbas e insectos pueden aportar serenidad duradera a esta…</summary>
+        <link href="https://nextnovels.com/descargar-genius-girlfriend-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1Sl4OcjwoAlieujTKoL1HtA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Genius-Girlfriend-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Genius-Girlfriend-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar On My Way Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-on-my-way-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Mi primer amor surgió en el mercado de verduras. Él era un estudiante brillante que acompañaba a su madre a comprar comestibles, mientras que…</summary>
+        <link href="https://nextnovels.com/descargar-on-my-way-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1rlEiwrWDJFjP1k6I2B7b-A" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/On-My-Way-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/On-My-Way-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Golden Age Legitimate Fei Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-golden-age-legitimate-fei-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Un edicto concedió el matrimonio. Una hija noble con tres defectos: sin talento, sin belleza, sin virtud. Un príncipe basura: desfigurado…</summary>
+        <link href="https://nextnovels.com/descargar-golden-age-legitimate-fei-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/16ZjZQRWPeIvNoeoEiulxeA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Golden-Age-Legitimate-Fei-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Golden-Age-Legitimate-Fei-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar A Ming Dynasty Adventure Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-a-ming-dynasty-adventure-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">En su vida pasada, Wei Cai Wei y el eunuco Wang Da Xia se convirtieron en un matrimonio «compartiendo comida» (algo así como que nada más…</summary>
+        <link href="https://nextnovels.com/descargar-a-ming-dynasty-adventure-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1FXcpuaacXxC9n71FWSmv5Q" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/04/A-Ming-Dynasty-Adventure-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/04/A-Ming-Dynasty-Adventure-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Jinsei Gyakuten Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-jinsei-gyakuten-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">A Eiji le hicieron NTR, con el as del equipo de futbol de su preparatoria. Luego de eso, Kondo (el netoreador) divulgó el falso rumor de que Eiji…</summary>
+        <link href="https://nextnovels.com/descargar-jinsei-gyakuten-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1wsaG1x1N_5QNIOuvcwMLRg" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Jinsei-Gyakuten-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Jinsei-Gyakuten-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Re-Friendzone Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-re-friendzone-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">La chica de la quien está enamorado se casó en una fecha muy especial, un duro golpe para nuestro protagonista, Leo, quien ha tenido una vida…</summary>
+        <link href="https://nextnovels.com/descargar-re-friendzone-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1TMPnBvn2KT4hCSt-1pt2-w" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Re-Friendzone-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/01/Re-Friendzone-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar The Beautiful Archery Club Senpai Is Sleeping in My Room with Her Tummy Out Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-beautiful-archery-club-senpai-is-sleeping-in-my-room-with-her-tummy-out-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Amemoto Touya es un estudiante de preparatoria que ama la sanación y la paz. Una noche, Touya se encuentra con Watanuki Rino, capitana del club…</summary>
@@ -377,7 +477,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/02/The-Beautiful-Archery-Club-Senpai-Is-Sleeping-in-My-Room-with-Her-Tummy-Out-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Neat And Pretty Girl At My New School Is A Childhood Friend Of Mine Who I Thought Was A Boy Novela Ligera</title>
+        <title>Descargar The Neat and Pretty Girl at My New School Is a Childhood Friend of Mine Who I Thought Was a Boy Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-neat-and-pretty-girl-at-my-new-school-is-a-childhood-friend-of-mine-who-i-thought-was-a-boy-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">“¡Siempre seremos amigos!” Al final del verano de su infancia, Hayato le hizo una promesa a su querido amigo. Siete años después, al transferirse..,</summary>
@@ -387,7 +487,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Neat-and-Pretty-Girl-at-My-New-School-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Failed Hero Becomes To The Great Evil King Novela Ligera</title>
+        <title>Descargar The Failed Hero Becomes to the Great Evil King Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-failed-hero-becomes-to-the-great-evil-king-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡Me vengaré de todos esos tipos que me desterraron robándoles a sus novias! «Tú, que no lograste convertirte en un héroe, ya no tienes ningún…</summary>
@@ -397,7 +497,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Failed-Hero-Becomes-to-the-Great-Evil-King-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>A Livid Ladys Guide To Getting Even Novela Ligera</title>
+        <title>Descargar A Livid Lady’s Guide to Getting Even Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-a-livid-ladys-guide-to-getting-even-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Elizabeth Leiston, hija del influyente primer ministro, es una dama perfecta en camino a convertirse en la futura reina del Reino de Haldoria…</summary>
@@ -407,7 +507,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/10/A-Livid-Ladys-Guide-to-Getting-Even-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Condemned Villainess Aims To Become The Ultimate Villain Novela Ligera</title>
+        <title>Descargar My Wish in This Life is World Destruction Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-my-wish-in-this-life-is-world-destruction-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">—Si es así, ¿no deberías disculparte con Anne? — Eleonor soltó una risita burlona. Que una señorita tuviera que disculparse con una simple…</summary>
+        <link href="https://nextnovels.com/descargar-my-wish-in-this-life-is-world-destruction-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1-UsRraCwoaQRk10MjRyqAA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/My-Wish-in-This-Life-is-World-Destruction-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/My-Wish-in-This-Life-is-World-Destruction-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar The Condemned Villainess Aims to Become the Ultimate Villain Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-condemned-villainess-aims-to-become-the-ultimate-villain-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Claudia, hija de un duque, es engañada por su malvada hermanastra y vendida a un burdel. Reacia a aceptar la derrota, Claudia aprovecha los…</summary>
@@ -417,7 +527,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/05/The-Condemned-Villainess-Aims-to-Become-the-Ultimate-Villain-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Scooped Up By An S Rank Adventurer Novela Ligera</title>
+        <title>Descargar Sousei no Tenken Tsukai Novela Ligera en Español</title>
+        <id>https://nextnovels.com/sousei-no-tenken-tsukai-novela-ligera-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">En su vida pasada, Chou Sekiei fue el invicto héroe de guerra Kou Eihou. Sin presiones, ¿verdad? Ahora, mil años después, lo único que quiere es…</summary>
+        <link href="https://nextnovels.com/sousei-no-tenken-tsukai-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1cm9e0IVx8uKXyPVpjC8MAw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2024/03/Sousei-no-Tenken-Tsukai-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2024/03/Sousei-no-Tenken-Tsukai-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Scooped Up by an S-Rank Adventurer! Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-scooped-up-by-an-s-rank-adventurer-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Lloyd es miembro del grupo del héroe más ilustre… ¡¿Qué quieres decir con «ya no»?! Expulsado por ser demasiado débil, ¡nadie parece darse…</summary>
@@ -427,7 +547,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/06/Scooped-Up-by-an-S-Rank-Adventurer-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>My Status As An Assassin Obviously Exceeds The Heros Novela Ligera</title>
+        <title>Descargar Maou Gakuin No Futekigousha Novela Ligera en Español</title>
+        <id>https://nextnovels.com/maou-gakuin-no-futekigousha-novela-ligera-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Después de que han pasado 2000 años, el despiadado señor de los demonios acaba de reencarnar. Pero su aptitud en una academia para criar…</summary>
+        <link href="https://nextnovels.com/maou-gakuin-no-futekigousha-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://nextnovels.com/maou-gakuin-no-futekigousha-novela-ligera-en-espanol/" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2022/08/01-17.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2022/08/01-17.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar My Status as an Assassin Obviously Exceeds the Hero’s Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-my-status-as-an-assassin-obviously-exceeds-the-heros-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">[Añadido] Volumen 05 – PDF…</summary>
@@ -437,7 +567,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/05/Ansatsusha-de-Aru-Ore-no-Status-ga-Yuusha-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Insipid Princes Furtive Grab For The Throne Novela Ligera</title>
+        <title>Descargar The Insipid Prince’s Furtive Grab for The Throne Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-insipid-princes-furtive-grab-for-the-throne-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">[Añadido] Volumen 05 – PDF…</summary>
@@ -447,7 +577,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/05/Saikyou-Degarashi-Ouji-no-Anyaku-Teii-Arasoi-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Twelve Kingdoms Novela Ligera</title>
+        <title>Descargar The Twelve Kingdoms Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-twelve-kingdoms-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Youko es una chica de Japón algo extraña, su color de pelo rojizo, considerado raro en una japonesa, le trae algunos problemas en el instituto y…</summary>
@@ -457,7 +587,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/08/The-Twelve-Kingdoms-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Disney Twisted Wonderland The Novel Novela Ligera</title>
+        <title>Descargar Disney Twisted-Wonderland: The Novel Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-disney-twisted-wonderland-the-novel-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Conoce a los estudiantes curiosos y más curiosos de Night Raven. College en “Disney Twisted Wonderland: El Tirano Carmesí”. Cuando Yuuya…</summary>
@@ -467,7 +597,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/02/Disney-Twisted-Wonderland-The-Novel-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Wistoria Grimo Acta Novela Ligera</title>
+        <title>Descargar Wistoria Grimo Acta Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-wistoria-grimo-acta-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Esas «lágrimas» que anuncian el comienzo de la historia… ¡Comienza la «precuela» de hace seis años, cuando eran alumnos de primer curso en…</summary>
@@ -477,7 +607,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Wistoria-Grimo-Acta-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Became A Villain In A Fantasy World Novela Ligera</title>
+        <title>Descargar I Became a Villain in a Fantasy World Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-i-became-a-villain-in-a-fantasy-world-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Haruto Tokito es un estudiante de secundaria común que termina atrapado dentro de su videojuego de fantasía favorito, pero con un gran problema…</summary>
@@ -487,7 +617,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-a-Villain-in-a-Fantasy-World-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Tearmoon Empire Story Novela Ligera</title>
+        <title>Descargar Tearmoon Empire Story Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-tearmoon-empire-story-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Mia, parece tener mucho trabajo. El trabajo duro y Mia no se mezclan, por lo que busca la ayuda de otros, comenzando con su fiel sirvienta, Anne…</summary>
@@ -497,7 +627,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/02/Tearmoon-Empire-Story-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Tensei Oujo To Tensai Reijou No Mahou Kakumei Novela Ligera</title>
+        <title>Descargar Tensei Oujo to Tensai Reijou no Mahou Kakumei Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-tensei-oujo-to-tensai-reijou-no-mahou-kakumei-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Anisphia, la Princesa que recordaba su vida anterior a una edad temprana, así como el intenso amor por la magia de su antiguo yo, partió para vivir sus…</summary>
@@ -507,7 +637,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/05/Tensei-Oujo-to-Tensai-Reijou-no-Mahou-Kakumei-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Angel Next Door Spoils Me Rotten Novela Ligera</title>
+        <title>Descargar The Angel Next Door Spoils Me Rotten Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-angel-next-door-spoils-me-rotten-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">La vecina de Amane Fujimiya, en el apartamento en el que vive, es el ángel adorable número uno de la escuela: Excelente y con un nivel de belleza que…</summary>
@@ -517,7 +647,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2024/06/Otonari-no-tenshi-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Shokei Shoujo No Virgin Road Novela Ligera</title>
+        <title>Descargar Shokei Shoujo no Virgin Road Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-shokei-shoujo-no-virgin-road-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Los Errantes son ovejas pérdidas que llegan aquí desde una tierra lejana conocida como “Japón”. Pocos saben cómo o por qué abandonan sus hogares…</summary>
@@ -527,7 +657,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/11/Shokei-Shoujo-no-Virgin-Road-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Abandoned My Engagement Novela Ligera</title>
+        <title>Descargar I Abandoned My Engagement Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-i-abandoned-my-engagement-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡La novela ligera que inspiró el manga! Una santa bajo escrutinio se ve obligada a vivir bajo la atenta mirada de un príncipe obsesionado con la…</summary>
@@ -537,7 +667,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/06/I-Abandoned-My-Engagement-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Most Heretical Last Boss Queen Novela Ligera</title>
+        <title>Descargar The Most Heretical Last Boss Queen Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-most-heretical-last-boss-queen-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Un día, una niña de ocho años llamada Pride Royal Ivy recupera los recuerdos de su vida pasada y descubre que ha reencarnado en el juego…</summary>
@@ -547,7 +677,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/05/The-Most-Heretical-Last-Boss-Queen-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Kumo Desu Ga Nani Ka Ex Novela Ligera</title>
+        <title>Descargar Kumo desu ga, Nani ka? Ex Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-kumo-desu-ga-nani-ka-ex-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Una vez que la misión mundial de D llega a su fin y el sistema queda destruido, Sophia y Wrath visitan a la Señora de los Demonios Ariel, quien…</summary>
@@ -557,7 +687,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Kumo-desu-ga-Nani-ka-EX-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Modern Era Transition Of The Second Prince Novela Ligera</title>
+        <title>Descargar Modern Era Transition of the Second Prince Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-modern-era-transition-of-the-second-prince-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¿Un príncipe en el Japón moderno? ¡La versatilidad lo es todo! Albert di Saloum, el Segundo Príncipe del Reino de Saloum, es el epítome de la…</summary>
@@ -567,7 +697,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Modern-Era-Transition-of-the-Second-Prince-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Witch Hound Novela Ligera</title>
+        <title>Descargar Witch &amp; Hound Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-witch-hound-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">La misión es convertir en aliadas a las brujas, portadoras de calamidades. Campusfello, un pequeño país próspero en agricultura y herrería…</summary>
@@ -577,7 +707,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Witch-and-Hound-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Good Loser Kumagawa Novela Ligera</title>
+        <title>Descargar Good Loser Kumagawa Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-good-loser-kumagawa-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Esta sub-serie se sitúa dos meses antes de que Kumagawa se transfiera a la Academia Hakoniwa, y narra su paso por la Academia Suisou. Es la…</summary>
@@ -587,7 +717,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/Good-Loser-Kumagawa-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Exiled Heavy Knight Knows How To Game The System Novela Ligera</title>
+        <title>Descargar The Exiled Heavy Knight Knows How to Game the System Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-the-exiled-heavy-knight-knows-how-to-game-the-system-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">«¡Que un Caballero Pesado haya surgido en la rama principal de los Edvan no es más que una vergüenza! ¡Desaparece, Elma!» Nacido en la casa…</summary>
@@ -597,7 +727,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/07/The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Love Magic Academy Novela Ligera</title>
+        <title>Descargar TS Eiseihei-san no Senjou Nikki Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-ts-eiseihei-san-no-senjou-nikki-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Un ex jugador profesional de FPS (♂) se reencarna en un mundo de fantasía lleno de magia… ¡Sólo para descubrir que lo que le recibía no era una…</summary>
+        <link href="https://nextnovels.com/descargar-ts-eiseihei-san-no-senjou-nikki-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1BYwjti19eB1lEY9SAyNHHQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/05/TS-Medics-Battlefield-Diary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/05/TS-Medics-Battlefield-Diary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Love &amp; Magic Academy Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-love-magic-academy-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">¡Estudiante de día, aventurera de noche! Aquí estoy, reencarnado en el mundo de Love &amp;amp; Magic Academy, un juego otome con elementos de RPG, y soy uno…</summary>
@@ -607,7 +747,17 @@
         <link href="https://nextnovels.com/wp-content/uploads/2025/04/Love-Magic-Academy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Horizon In The Middle Of Nowhere Novela Ligera</title>
+        <title>Descargar I’m Not Even an Otome Game Mob Character Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-im-not-even-an-otome-game-mob-character-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Isaac, quien tiene recuerdos de su vida pasada en japón, es un aprendiz de jardinero en la familia del duque. ¡La casa del duque resulto ser donde…</summary>
+        <link href="https://nextnovels.com/descargar-im-not-even-an-otome-game-mob-character-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1MaSCxWItdPCQLDbdg3bKSA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Im-Not-Even-an-Otome-Game-Mob-Character-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Im-Not-Even-an-Otome-Game-Mob-Character-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Horizon in the Middle of Nowhere Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-horizon-in-the-middle-of-nowhere-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Kyoukai Senjou no Horizon narra la historia de una civilización futurista que regresa a la Tierra después de que la guerra constante les impidiera…</summary>
@@ -617,7 +767,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2023/09/Kyoukai-Senjou-no-Horizon-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Story About Buying My Classmate Once A Week Novela Ligera</title>
+        <title>Descargar Story About Buying My Classmate Once A Week Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-story-about-buying-my-classmate-once-a-week-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Una vez a la semana, Miyagi le paga 5.000 yenes a su compañera de clase Sendai. Los 5.000 yenes sirven para comprar tres horas del tiempo de Sendai…</summary>
@@ -627,7 +777,7 @@
         <link href="https://nextnovels.com/wp-content/uploads/2024/01/Shuu-ni-Ichido-Kurasumeito-wo-Kau-Hanashi-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Akashic Records Of The Bastard Magical Instructor Novela Ligera</title>
+        <title>Descargar Akashic Records of the Bastard Magical Instructor Novela Ligera en Español</title>
         <id>https://nextnovels.com/descargar-akashic-records-of-the-bastard-magical-instructor-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <summary type="text">Sisti asiste a una academia de magia para perfeccionar sus habilidades en las artes mágicas, y espera resolver el misterio del enigmático Castillo del Cielo…</summary>
@@ -637,213 +787,223 @@
         <link href="https://nextnovels.com/wp-content/uploads/2026/01/Akashic-Records-of-the-Bastard-Magical-Instructor-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Toaru Majutsu No Index Genesis Testament Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-toaru-majutsu-no-index-genesis-testament-novela-ligera-en-espanol/</id>
+        <title>Descargar Semi-Coercive Imperialist Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-semi-coercive-imperialist-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">[Añadido] Volumen 13 – PDF…</summary>
-        <link href="https://nextnovels.com/descargar-toaru-majutsu-no-index-genesis-testament-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1Dl36_94FPI0uIQi1983-zw" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2022/08/01-93.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2022/08/01-93.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Me convertí en un imperialista semi-coercitivo… para evitar la destrucción de todos.</summary>
+        <link href="https://nextnovels.com/descargar-semi-coercive-imperialist-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1JYTDtdNB0dfEWjxTNq1qfg" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Semi-Coercive-Imperialist-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Semi-Coercive-Imperialist-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Mushoku Tensei Behind The Scenes Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-mushoku-tensei-behind-the-scenes-novela-ligera-en-espanol/</id>
+        <title>Descargar Confined Together with the Horror Game’s Male Lead Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-confined-together-with-the-horror-games-male-lead-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">“Mushoku Tensei – Behind the Scenes” es una compilación de cartas que el Autor Rifujin na Magonote escribió después de cada volumen…</summary>
-        <link href="https://nextnovels.com/descargar-mushoku-tensei-behind-the-scenes-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1wkuGRjVLoW3MlKQ7iMPHbQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Behind-the-Scenes-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Behind-the-Scenes-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Me convertí en sirvienta en un juego de terror. Y aquí, en esta mansión, estaba confinada junto con el protagonista masculino, que está tratando…</summary>
+        <link href="https://nextnovels.com/descargar-confined-together-with-the-horror-games-male-lead-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1zoGkrT6sEX5svJG9GhJNvw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Confined-Together-with-the-Horror-Games-Male-Lead-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Confined-Together-with-the-Horror-Games-Male-Lead-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Mushoku Tensei Special Book Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-mushoku-tensei-special-book-novela-ligera-en-espanol/</id>
+        <title>Descargar The Crown I Will Take From You Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-the-crown-i-will-take-from-you-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">El épico viaje ha llegado a su fin, ¡pero aún quedan muchas historias por contar sobre los protagonistas de «Jobless Reincarnation»! Vuelve al…</summary>
-        <link href="https://nextnovels.com/descargar-mushoku-tensei-special-book-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1QCr2t6DMt_su6hOfdY52fQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Special-Book-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Special-Book-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Sostuve mi vientre hinchado con mi segundo hijo y escuché la noticia del matrimonio de mi esposo. Fue una traición dolorosa por parte de mi…</summary>
+        <link href="https://nextnovels.com/descargar-the-crown-i-will-take-from-you-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1LcJBnn-t9mBfqojxfWyupA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/03/The-Crown-I-Will-Take-From-You-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/03/The-Crown-I-Will-Take-From-You-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Mushoku Tensei Redundancy Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-mushoku-tensei-redundancy-novela-ligera-en-espanol/</id>
+        <title>Descargar My Husband was Switched Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-my-husband-was-switched-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">La historia de lo que paso después de la feroz batalla. Después de la batalla decisiva en el Reino de Biheiril, Rudeus Greyrat emerge victorioso….</summary>
-        <link href="https://nextnovels.com/descargar-mushoku-tensei-redundancy-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/19UmMJ3CeiZh67fPRp7jXFA" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Redundancy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Mushoku-Tensei-Redundancy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Me reencarné en una novela de infidelidades. Y no en cualquier personaje, sino en el cuerpo de la villana que se volvió malvada después de que su…</summary>
+        <link href="https://nextnovels.com/descargar-my-husband-was-switched-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1A3PVxgW1KRqRK_NN961YuQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/05/My-Husband-was-Switched-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/05/My-Husband-was-Switched-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>My Students Mother Was My Ex Girlfriend Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-my-students-mother-was-my-ex-girlfriend-novela-ligera-en-espanol/</id>
+        <title>Descargar At The End Of The Hidden Greenery Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-at-the-end-of-the-hidden-greenery-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">La frustrante distancia entre ellos… ¡no desaparece ni siquiera después de una ruptura! Una comedia romántica dulce y a la vez frustrante para…</summary>
-        <link href="https://nextnovels.com/descargar-my-students-mother-was-my-ex-girlfriend-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1auDAu6Ks1L5rolWB62Yn3w" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/My-Students-Mother-Was-My-Ex-Girlfriend-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/My-Students-Mother-Was-My-Ex-Girlfriend-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Dedicó cinco años de su vida a servir como Akarna del templo mientras era la pareja del príncipe heredero. —¿No lo entiendes? Si no puedes dar…</summary>
+        <link href="https://nextnovels.com/descargar-at-the-end-of-the-hidden-greenery-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1LfoJ1T7bTtxo1YjbSSzGRA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/At-The-End-Of-The-Hidden-Greenery-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/At-The-End-Of-The-Hidden-Greenery-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>The Strongest Man Born From Misfortune Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-the-strongest-man-born-from-misfortune-novela-ligera-en-espanol/</id>
+        <title>Descargar I Became a Foreign Element in the Guideverse Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-i-became-a-foreign-element-in-the-guideverse-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">¿Qué haces cuando te reencarnas con una mala suerte cuarenta veces mayor de lo normal? Siegbert von Abel, un desafortunado japonés que…</summary>
-        <link href="https://nextnovels.com/descargar-the-strongest-man-born-from-misfortune-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1aX1GcY90BAEJcx-XTeainA" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Strongest-Man-Born-from-Misfortune-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Strongest-Man-Born-from-Misfortune-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Apenas logré escapar después de haber transmigrado al mejor espadachín de un juego de artes marciales, y ahora terminé transmigrando a…</summary>
+        <link href="https://nextnovels.com/descargar-i-became-a-foreign-element-in-the-guideverse-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1FoNzAqe-xOKLCkSAlN_YHw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-a-Foreign-Element-in-the-Guideverse-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-a-Foreign-Element-in-the-Guideverse-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Death March Ex Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-death-march-ex-novela-ligera-en-espanol/</id>
+        <title>Descargar After Being Annoyed By The Northern Grand Duke, I Married The Southern Grand Duke Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-after-being-annoyed-by-the-northern-grand-duke-i-married-the-southern-grand-duke-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">¡Incluye los relatos cortos inéditos «La vieja amiga de Riza» y «Las aventuras de la princesa Arisa en otro mundo»! ¡Incluye material sobre…</summary>
-        <link href="https://nextnovels.com/descargar-death-march-ex-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1Qy9_bqCsepCDH-N9eU6SNw" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Death-March-EX-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Death-March-EX-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Un día, mientras vivía mi nueva vida tras haber reencarnado… me di cuenta de que este mundo es en realidad el de una novela romántica de…</summary>
+        <link href="https://nextnovels.com/descargar-after-being-annoyed-by-the-northern-grand-duke-i-married-the-southern-grand-duke-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1rHWIdzLLbKWDG-m7emJGmw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/After-Being-Annoyed-By-The-Northern-Grand-Duke-I-Married-The-Southern-Grand-Duke-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/After-Being-Annoyed-By-The-Northern-Grand-Duke-I-Married-The-Southern-Grand-Duke-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>How I Became King By Eating Monsters Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-how-i-became-king-by-eating-monsters-novela-ligera-en-espanol/</id>
+        <title>Descargar I Only Need the Duke’s Child Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-i-only-need-the-dukes-child-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">La vida no ha sido amable con Zenos. Nació en los suburbios y su origen pobre y sucio le ha negado casi todas las oportunidades. Tras un encuentro con…</summary>
-        <link href="https://nextnovels.com/descargar-how-i-became-king-by-eating-monsters-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1_XIAcsO0AnwPFR_cNni-NQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/01/How-I-Became-King-by-Eating-Monsters-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/01/How-I-Became-King-by-Eating-Monsters-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Tras enfrentarse a la muerte y regresar en el tiempo, su segundo matrimonio con su exmarido tuvo un único propósito: quedar embarazada. Su única…</summary>
+        <link href="https://nextnovels.com/descargar-i-only-need-the-dukes-child-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1dCXuqi-2Cg_WSPwIJMV-5A" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Only-Need-the-Dukes-Child-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Only-Need-the-Dukes-Child-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Youkoso Jitsuryoku Shijou Shugi No Kyoushitsu E Year 3 Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-year-3-novela-ligera-en-espanol/</id>
+        <title>Descargar Dukedom’s Legendary Prodigy Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-dukedoms-legendary-prodigy-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Tras el último «examen especial en fin de curso» del segundo año, Horikita y su antigua clase D de primero reciben a los alumnos de tercero de la clase A…</summary>
-        <link href="https://nextnovels.com/descargar-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-year-3-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1MY761VOss1cmGtnIaXdcrA" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Youkoso-Jitsuryoku-Shijou-Shugi-no-Kyoushitsu-e-—-Year-3-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/08/Youkoso-Jitsuryoku-Shijou-Shugi-no-Kyoushitsu-e-—-Year-3-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Han Sung, comandante supremo de la última resistencia de la Tierra, solía cazar monstruos. Trasladado a otro mundo, fue explotado por el…</summary>
+        <link href="https://nextnovels.com/descargar-dukedoms-legendary-prodigy-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1Lnm3V9Y8mIIiHkJtIT893g" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Dukedoms-Legendary-Prodigy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Dukedoms-Legendary-Prodigy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Cleric In A World Where Beauty And Ugliness Are Reversed Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-cleric-in-a-world-where-beauty-and-ugliness-are-reversed-novela-ligera-en-espanol/</id>
+        <title>Descargar My Mom is my Constellation Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-my-mom-is-my-constellation-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Makoto, un virgen de 30 años, meticulosamente investiga para dar el siguiente paso en la escalera de la adultez. Sin embargo, termina en un…</summary>
-        <link href="https://nextnovels.com/descargar-cleric-in-a-world-where-beauty-and-ugliness-are-reversed-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1n3WJ4Fj5Zkp_2PHeL-Zo2Q" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/11/Cleric-in-a-World-Where-Beauty-and-Ugliness-Are-Reversed-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2025/11/Cleric-in-a-World-Where-Beauty-and-Ugliness-Are-Reversed-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Tras la muerte, regresé milagrosamente al pasado, pero ahora eso no es lo importante. [¡La constelación «Seong Hyun-suk» envía un patrocinio a…</summary>
+        <link href="https://nextnovels.com/descargar-my-mom-is-my-constellation-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1pwFf7Cn3SfjP3XIkDfsHmQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/My-Mom-is-my-Constellation-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/My-Mom-is-my-Constellation-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Can See Erotic Status Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-i-can-see-erotic-status-novela-ligera-en-espanol/</id>
+        <title>Descargar Selfish Savior Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-selfish-savior-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">El protagonista es un aventurero ordinario que formaba parte del aclamado grupo del «Héroe». Sin embargo, tras ser catalogado como un estorbo…</summary>
-        <link href="https://nextnovels.com/descargar-i-can-see-erotic-status-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1fjr7jzcFz6pialFHmeyS1A" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Now-That-I-Can-See-Ero-Statuses-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Now-That-I-Can-See-Ero-Statuses-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Solo cruzé la puerta del huerto de la abuela y un dios me envió a otro mundo. ¡Abuela! ¡Nadie me dijo que la puerta del huerto era un portal…</summary>
+        <link href="https://nextnovels.com/descargar-selfish-savior-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/15wkxUypeoL9SsFoLEkAL_Q" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Selfish-Savior-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/Selfish-Savior-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>This Is Just Pretend After All Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-this-is-just-pretend-after-all-novela-ligera-en-espanol/</id>
+        <title>Descargar Reborn as a Space Mercenary Novela Ligera en Español</title>
+        <id>https://nextnovels.com/reborn-as-a-space-mercenary-novela-ligera-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Amor y besos; todo es real, todo es mentira. El dulce y amargo «jugar a la casita» de dos estudiantes de preparatoria. Por ciertas circunstancias…</summary>
-        <link href="https://nextnovels.com/descargar-this-is-just-pretend-after-all-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/13WaniJ82H0xpbYIT8Gjedw" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/This-Is-Just-Pretend-After-All-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/This-Is-Just-Pretend-After-All-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Cuando me desperté, me encontré dentro de una nave espacial. Supongo que pensáis que estoy diciendo tonterías, pero tampoco tengo ni idea de lo…</summary>
+        <link href="https://nextnovels.com/reborn-as-a-space-mercenary-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/15yxNhh7rUL_HCsaLVQnK7g" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2022/02/Reborn-as-a-Space-Mercenary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2022/02/Reborn-as-a-Space-Mercenary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Silent Witch Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-silent-witch-novela-ligera-en-espanol/</id>
+        <title>Descargar He Became Napoleon’s Genius Son Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-he-became-napoleons-genius-son-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Moniva Everett, un mago genio, extremadamente tímida y malísima para hablar en público. Así, ella trabajó duro y dominó el arte de infinitas mágicas…</summary>
-        <link href="https://nextnovels.com/descargar-silent-witch-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1iXrj4Lucl2YZzxuGhN89WA" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2023/04/Silent-Witch-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2023/04/Silent-Witch-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Se convertió en el hijo de Napoleón. El problema es que es adoptado.</summary>
+        <link href="https://nextnovels.com/descargar-he-became-napoleons-genius-son-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1mQgsqTOdhiBZYrdgPzgBWQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/He-Became-Napoleons-Genius-Son-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/He-Became-Napoleons-Genius-Son-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Got Kicked Out Of The Heros Party So I Went Back To My Hometown But The Entire Party Followed Me Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-i-got-kicked-out-of-the-heros-party-so-i-went-back-to-my-hometown-but-the-entire-party-followed-me-novela-ligera-en-espanol/</id>
+        <title>Descargar I Became the King of Crusaders Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-i-became-the-king-of-crusaders-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Ya está, me casaré con todas y empezaré una vida de harén. «Jin… nuestro viaje termina aquí.» Jin, quien había formado equipo con su amiga…</summary>
-        <link href="https://nextnovels.com/descargar-i-got-kicked-out-of-the-heros-party-so-i-went-back-to-my-hometown-but-the-entire-party-followed-me-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1vTB2Og-20tKLRop1EeppUg" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/05/I-Got-Kicked-Out-of-the-Heros-Party-so-I-Went-Back-to-My-Hometown-but-the-Entire-Party-Followed-Me-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/05/I-Got-Kicked-Out-of-the-Heros-Party-so-I-Went-Back-to-My-Hometown-but-the-Entire-Party-Followed-Me-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Año 1181. Jerusalén, donde la locura de las Cruzadas y el Islam colisionan. Caí en medio de todo eso. Y encima, como miembro de la realeza de un reino que pronto será destruido.</summary>
+        <link href="https://nextnovels.com/descargar-i-became-the-king-of-crusaders-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1e4hVq2v-yvUOeBsVIOQinw" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-the-King-of-Crusaders-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/07/I-Became-the-King-of-Crusaders-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>My Love Comedy With The Unfallable Beautiful Girl Classmate Is Way Too Easy Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-my-love-comedy-with-the-unfallable-beautiful-girl-classmate-is-way-too-easy-novela-ligera-en-espanol/</id>
+        <title>Descargar Becoming a Spanish Magnate Using My Chemistry Knowledge Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-becoming-a-spanish-magnate-using-my-chemistry-knowledge-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Cuatro años y medio después de haber regresado a mi ciudad natal, descubrí una impactante verdad en la preparatoria a la que me transferí. Resulta…</summary>
-        <link href="https://nextnovels.com/descargar-my-love-comedy-with-the-unfallable-beautiful-girl-classmate-is-way-too-easy-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1n5scV7uxa-cdcWIW-JJh7Q" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/My-Love-Comedy-with-the-Unfallable-Beautiful-Girl-Classmate-Is-Way-Too-Easy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/My-Love-Comedy-with-the-Unfallable-Beautiful-Girl-Classmate-Is-Way-Too-Easy-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">En el año 1568, antes de que el eje del mal, Gran Bretaña, dominara el mundo. Poseí el cuerpo de un muchacho español.</summary>
+        <link href="https://nextnovels.com/descargar-becoming-a-spanish-magnate-using-my-chemistry-knowledge-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1iK_8CAPBGYFJeJRGnzYd6w" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Becoming-a-Spanish-Magnate-Using-My-Chemistry-Knowledge-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Becoming-a-Spanish-Magnate-Using-My-Chemistry-Knowledge-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Starting Over At 28 Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-starting-over-at-28-novela-ligera-en-espanol/</id>
+        <title>Descargar There Is No Such Thing as a Revolution in Russia Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-there-is-no-such-thing-as-a-revolution-in-russia-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">¿Las habilidades sociales de un 4dult0 trabajador…? ¡En el salón de clases son prácticamente trampas y todos terminan dependiendo de él!?…</summary>
-        <link href="https://nextnovels.com/descargar-starting-over-at-28-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1jV6R6iKbJ6DUpH78PVqlCQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Starting-Over-at-28-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Starting-Over-at-28-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">En Rusia no existe tal cosa como una revolución. Nikolái, el último emperador, no lo tolerará.</summary>
+        <link href="https://nextnovels.com/descargar-there-is-no-such-thing-as-a-revolution-in-russia-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1MUdZsc4nWBg32HW4BlEHkg" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/There-Is-No-Such-Thing-as-a-Revolution-in-Russia-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/There-Is-No-Such-Thing-as-a-Revolution-in-Russia-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Was Reborn Into A Gacha Game And Ill Keep Supporting The %E2%98%851 Heroine Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-i-was-reborn-into-a-gacha-game-and-ill-keep-supporting-the-%e2%98%851-heroine-novela-ligera-en-espanol/</id>
+        <title>Descargar The Trash of the Roman Magnate Family Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-the-trash-of-the-roman-magnate-family-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">¡En realidad, la más linda es la personaje de baja rareza que nadie valora! Yo, Takuto Iori, reencarné dentro de un juego gacha de idols y allí…</summary>
-        <link href="https://nextnovels.com/descargar-i-was-reborn-into-a-gacha-game-and-ill-keep-supporting-the-%e2%98%851-heroine-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1-x88jr3Z9vKWb8Ee54_yHg" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/I-Was-Reborn-into-a-Gacha-Game-and-Ill-Keep-Supporting-the-★1-Heroine-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/06/I-Was-Reborn-into-a-Gacha-Game-and-Ill-Keep-Supporting-the-★1-Heroine-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Me convertí en la pequeña nuera de una familia ducal que será destruida en 10 años. En realidad, esta familia guarda el secreto de ser «bestias…</summary>
+        <link href="https://nextnovels.com/descargar-the-trash-of-the-roman-magnate-family-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/18klueqdCSVo_cFmCDVjDqA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Trash-of-the-Roman-Magnate-Family-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Trash-of-the-Roman-Magnate-Family-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Notorious No More Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-notorious-no-more-novela-ligera-en-espanol/</id>
+        <title>Descargar The Fox Clan Hides Their True Identity from the Bride Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-the-fox-clan-hides-their-true-identity-from-the-bride-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Laviange, la primogénita de la Casa Robur, es conocida por ser desagradable, irresponsable, carecer de talento para la magia y carecer por completo…</summary>
-        <link href="https://nextnovels.com/descargar-notorious-no-more-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1TBS9dJA7OkAjnEvd28PMJQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/05/Notorious-No-More-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2026/05/Notorious-No-More-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Me convertí en la pequeña nuera de una familia ducal que será destruida en 10 años. En realidad, esta familia guarda el secreto de ser «bestias…</summary>
+        <link href="https://nextnovels.com/descargar-the-fox-clan-hides-their-true-identity-from-the-bride-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1EY1KicFOhFVl7Ykwc8b8HA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Fox-Clan-Hides-Their-True-Identity-from-the-Bride-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/The-Fox-Clan-Hides-Their-True-Identity-from-the-Bride-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>I Could Never Be A Succubus Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-i-could-never-be-a-succubus-novela-ligera-en-espanol/</id>
+        <title>Descargar Regressed Warrior’s Female Dominance Diary Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-regressed-warriors-female-dominance-diary-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Liz, una joven noble, es la alumna estrella de su academia: talentosa, refinada, generosa y la niña de los ojos de todos. Pero el día que un héroe…</summary>
-        <link href="https://nextnovels.com/descargar-i-could-never-be-a-succubus-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1Odg6HKKV-UJ54p9lpPyNfw" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2024/01/Watashi-wa-Succubus-Jaarimasen-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2024/01/Watashi-wa-Succubus-Jaarimasen-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">El héroe que luchaba contra el Rey Demonio murió justo frente a sus ojos. —Si íbamos a perder así, ¿para qué demonios estuvimos peleando hasta…</summary>
+        <link href="https://nextnovels.com/descargar-regressed-warriors-female-dominance-diary-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1bSq6E2iemJCKjlWJ0F5vfA" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Regressed-Warriors-Female-Dominance-Diary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Regressed-Warriors-Female-Dominance-Diary-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Saikyou Mahoushi No Inton Keikaku Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-saikyou-mahoushi-no-inton-keikaku-novela-ligera-en-espanol/</id>
+        <title>Descargar Radiant Blade of the Wilderness Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-radiant-blade-of-the-wilderness-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">Hace cientos de años los demonios aparecieron repentinamente y empezaron a atacar a los humanos, en ese momento los humanos no podían ni siquiera…</summary>
-        <link href="https://nextnovels.com/descargar-saikyou-mahoushi-no-inton-keikaku-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/11J5DIsxkd_hVyhj3EjwTcw" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2022/11/01-26.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2022/11/01-26.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">Zhulong, el Dragón Antorcha: al consumirlo, abre el caos primordial, ilumina las nueve tinieblas, gobierna el día y la noche, alterna las…</summary>
+        <link href="https://nextnovels.com/descargar-radiant-blade-of-the-wilderness-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1ngfLC3660BEC0ueQ6TMMzQ" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Radiant-Blade-of-the-Wilderness-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2026/06/Radiant-Blade-of-the-Wilderness-Portada-1.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
     <entry>
-        <title>Hyouketsu Kyoukai No Eden Novela Ligera</title>
-        <id>https://nextnovels.com/descargar-hyouketsu-kyoukai-no-eden-novela-ligera-en-espanol/</id>
+        <title>Descargar Lord of the Mysteries 2: Circle of Inevitability Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-lord-of-the-mysteries-2-circle-of-inevitability-novela-web-en-espanol/</id>
         <updated>2026-01-01T00:00:00Z</updated>
-        <summary type="text">En un mundo donde la humanidad esta confinada en un continente flotante llamado Orbie Clar hay monstruos que quieren destruir a la humanidad…</summary>
-        <link href="https://nextnovels.com/descargar-hyouketsu-kyoukai-no-eden-novela-ligera-en-espanol/" type="text/html" rel="alternate"/>
-        <link href="https://1024terabox.com/s/1zxGDCXoeo6ET2lInhd8SSg" type="text/html" rel="http://opds-spec.org/acquisition"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2023/06/Hyouketsu-Kyoukai-no-Eden-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
-        <link href="https://nextnovels.com/wp-content/uploads/2023/06/Hyouketsu-Kyoukai-no-Eden-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+        <summary type="text">El Señor de los Misterios, segunda parte. En 1368, a finales de julio. Un escarlata sangriento descenderá del cielo…</summary>
+        <link href="https://nextnovels.com/descargar-lord-of-the-mysteries-2-circle-of-inevitability-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1dKEfNmPbfJForxE1qRtH9w" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2024/06/Circle-of-Inevitability-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2024/06/Circle-of-Inevitability-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
+    </entry>
+    <entry>
+        <title>Descargar Reverend Insanity Novela Web en Español</title>
+        <id>https://nextnovels.com/descargar-reverend-insanity-novela-web-en-espanol/</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <summary type="text">Los humanos son inteligentes en decenas de miles de maneras, los Gu son las verdaderas esencias refinadas del Cielo y la Tierra. Los Tres Templos son…</summary>
+        <link href="https://nextnovels.com/descargar-reverend-insanity-novela-web-en-espanol/" type="text/html" rel="alternate"/>
+        <link href="https://1024terabox.com/s/1X52p3plXCIF4tHJcEd-Ccg" type="text/html" rel="http://opds-spec.org/acquisition"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/07/Reverend-Insanity-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/image"/>
+        <link href="https://nextnovels.com/wp-content/uploads/2025/07/Reverend-Insanity-Portada.jpg" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>
     </entry>
 </feed>
