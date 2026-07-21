@@ -5,7 +5,6 @@ from xml.sax.saxutils import escape
 URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/page/"
 
 def extraer_detalles_articulo(url_articulo):
-    """Extrae el enlace de descarga, la imagen de portada y la sinopsis desde la página del artículo."""
     enlace_descarga = url_articulo
     tipo_mime = "text/html"
     imagen_portada = ""
@@ -19,7 +18,7 @@ def extraer_detalles_articulo(url_articulo):
         with urllib.request.urlopen(req) as response:
             html = response.read().decode('utf-8')
             
-        # 1. Extraer imagen de portada (OpenGraph image)
+        # 1. Extraer imagen de portada
         match_img = re.search(r'<meta property="og:image" content="([^"]+)"', html)
         if match_img:
             imagen_portada = match_img.group(1)
@@ -29,7 +28,7 @@ def extraer_detalles_articulo(url_articulo):
         if match_desc:
             descripcion = match_desc.group(1)
 
-        # 3. Buscar dominios de descarga externos habituales
+        # 3. Buscar enlaces de descarga externos
         dominios_validos = (
             'mega.nz', 'mediafire.com', 'drive.google.com',
             'terabox.com', '1024terabox.com', 'mirrobox.com', 'nephobox.com'
@@ -57,8 +56,8 @@ def obtener_novelas():
     entradas = []
     links_procesados = set()
     
-    # Recorremos las primeras 3 páginas de la categoría
-    for num_pagina in range(1, 4):
+    # Aumentamos el rango de páginas a 10 para que traiga muchas más novelas del catálogo
+    for num_pagina in range(1, 11):
         url_pag = f"{URL_CATEGORIA}{num_pagina}/" if num_pagina > 1 else "https://nextnovels.com/category/novela-ligera/"
         try:
             req = urllib.request.Request(
@@ -70,19 +69,22 @@ def obtener_novelas():
                 
             patron_links = re.findall(r'href="(https://nextnovels.com/descargar-[^"]+)"', html)
             
+            # Si una página ya no devuelve resultados, detenemos el bucle para ahorrar tiempo
+            if not patron_links and num_pagina > 1:
+                break
+            
             for loc in patron_links:
                 if loc not in links_procesados:
                     links_procesados.add(loc)
                     slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
                     titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
                     
-                    # Obtenemos todos los metadatos ricos
                     enlace_descarga, tipo_mime, imagen_portada, descripcion = extraer_detalles_articulo(loc)
                     
-                    # Construimos las etiquetas opcionales si existen
+                    # Estructura compatible con lectores OPDS para imágenes y sinopsis
                     tag_imagen = f'<link href="{escape(imagen_portada)}" type="image/jpeg" rel="http://opds-spec.org/image"/>' if imagen_portada else ''
                     tag_thumb = f'<link href="{escape(imagen_portada)}" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>' if imagen_portada else ''
-                    tag_summary = f'<summary type="text">{escape(descripcion)}</summary>' if descripcion else ''
+                    tag_summary = f'<summary type="text">{escape(descripcion)}</summary>' if descripcion else '<summary type="text">Sin descripción disponible.</summary>'
                     
                     entrada = f"""    <entry>
         <title>{escape(titulo)}</title>
@@ -116,7 +118,7 @@ def generar_opds():
     
     with open("catalogo.xml", "w", encoding="utf-8") as f:
         f.write(xml_contenido)
-    print("¡Catálogo OPDS enriquecido generado con éxito!")
+    print("¡Catálogo completo generado con éxito!")
 
 if __name__ == "__main__":
     generar_opds()
