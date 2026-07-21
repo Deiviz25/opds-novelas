@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main, master ]
   schedule:
-    - cron: '0 */6 * * *' # Se ejecuta automáticamente cada 6 horas
-  workflow_dispatch: # Permite darle al botón de "Re-run" manualmente
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,6 +16,17 @@ jobs:
     steps:
     - name: Copiar repositorio
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Configurar Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    - name: Sincronizar con remoto (Pull)
+      run: |
+        git pull origin main --rebase || git pull origin master --rebase
 
     - name: Configurar Python
       uses: actions/setup-python@v5
@@ -30,3 +41,4 @@ jobs:
       with:
         commit_message: "Actualización automática del catálogo XML"
         file_pattern: catalogo.xml
+        push_options: '--force'
