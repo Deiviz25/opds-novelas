@@ -4,8 +4,13 @@ from xml.sax.saxutils import escape
 
 URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/page/"
 
-def clasificar_enlace(url_articulo):
-    """Busca el enlace de descarga y determina si es un archivo epub directo o un servicio web externo."""
+def extraer_detalles_articulo(url_articulo):
+    """Extrae el enlace de descarga, la imagen de portada y la sinopsis desde la página del artículo."""
+    enlace_descarga = url_articulo
+    tipo_mime = "text/html"
+    imagen_portada = ""
+    descripcion = ""
+    
     try:
         req = urllib.request.Request(
             url_articulo, 
@@ -14,38 +19,39 @@ def clasificar_enlace(url_articulo):
         with urllib.request.urlopen(req) as response:
             html = response.read().decode('utf-8')
             
+        # 1. Extraer imagen de portada (OpenGraph image)
+        match_img = re.search(r'<meta property="og:image" content="([^"]+)"', html)
+        if match_img:
+            imagen_portada = match_img.group(1)
+            
+        # 2. Extraer descripción / sinopsis
+        match_desc = re.search(r'<meta name="description" content="([^"]+)"', html)
+        if match_desc:
+            descripcion = match_desc.group(1)
+
+        # 3. Buscar dominios de descarga externos habituales
         dominios_validos = (
             'mega.nz', 'mediafire.com', 'drive.google.com',
             'terabox.com', '1024terabox.com', 'mirrobox.com', 'nephobox.com'
         )
 
-        # 1. Buscar si hay un enlace directo que termine estrictamente en .epub
         matches = re.findall(r'href="(https?://[^"]+)"', html)
         for link in matches:
             if '.epub' in link.lower() and 'nextnovels.com' not in link:
-                return link, "application/epub+zip"
-
-        # 2. Buscar botones de descarga con servicios externos (Terabox, Mega, etc.)
-        botones = re.findall(
-            r'<a[^>]+class="[^"]*et_pb_button[^"]*"[^>]+href="(https?://[^"]+)"[^>]*>\s*Descargar\s*</a>',
-            html
-        )
-        for link in botones:
-            if any(d in link.lower() for d in dominios_validos):
-                # Como Terabox/Mega no es un archivo directo, lo marcamos como text/html 
-                # para que OpenComic lo abra en el navegador en lugar de intentar descargarlo y fallar.
-                return link, "text/html"
-
-        # 3. Respaldo general buscando dominios en todo el HTML
-        for link in matches:
-            if any(d in link.lower() for d in dominios_validos):
-                return link, "text/html"
-                
+                enlace_descarga = link
+                tipo_mime = "application/epub+zip"
+                break
+        
+        if tipo_mime == "text/html":
+            for link in matches:
+                if any(d in link.lower() for d in dominios_validos):
+                    enlace_descarga = link
+                    break
+                    
     except Exception:
         pass
     
-    # Si todo falla, devolvemos el artículo web original como text/html de seguridad
-    return url_articulo, "text/html"
+    return enlace_descarga, tipo_mime, imagen_portada, descripcion
 
 def obtener_novelas():
     entradas = []
@@ -70,15 +76,23 @@ def obtener_novelas():
                     slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
                     titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
                     
-                    # Obtenemos el enlace clasificado y su tipo MIME correcto
-                    enlace_descarga, tipo_mime = clasificar_enlace(loc)
+                    # Obtenemos todos los metadatos ricos
+                    enlace_descarga, tipo_mime, imagen_portada, descripcion = extraer_detalles_articulo(loc)
+                    
+                    # Construimos las etiquetas opcionales si existen
+                    tag_imagen = f'<link href="{escape(imagen_portada)}" type="image/jpeg" rel="http://opds-spec.org/image"/>' if imagen_portada else ''
+                    tag_thumb = f'<link href="{escape(imagen_portada)}" type="image/jpeg" rel="http://opds-spec.org/thumbnail"/>' if imagen_portada else ''
+                    tag_summary = f'<summary type="text">{escape(descripcion)}</summary>' if descripcion else ''
                     
                     entrada = f"""    <entry>
         <title>{escape(titulo)}</title>
         <id>{escape(loc)}</id>
         <updated>2026-01-01T00:00:00Z</updated>
+        {tag_summary}
         <link href="{escape(loc)}" type="text/html" rel="alternate"/>
         <link href="{escape(enlace_descarga)}" type="{tipo_mime}" rel="http://opds-spec.org/acquisition"/>
+        {tag_imagen}
+        {tag_thumb}
     </entry>"""
                     entradas.append(entrada)
         except Exception as e:
@@ -102,7 +116,7 @@ def generar_opds():
     
     with open("catalogo.xml", "w", encoding="utf-8") as f:
         f.write(xml_contenido)
-    print("¡Catálogo OPDS honesto generado con éxito!")
+    print("¡Catálogo OPDS enriquecido generado con éxito!")
 
 if __name__ == "__main__":
     generar_opds()
