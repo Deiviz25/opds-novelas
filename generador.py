@@ -1,56 +1,55 @@
 import json
 import urllib.request
-import xml.etree.ElementTree as ET
+import re
 
-# URL del sitemap de WordPress de la web para obtener las entradas de forma limpia
-SITEMAP_URL = "https://nextnovels.com/post-sitemap.xml"
+# URL directa de la categoría de novelas ligeras en Next Novels
+URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/"
 
 def obtener_novelas():
     publications = []
     
     try:
-        # Descargar el sitemap de la web
+        # Petición HTTP simulando un navegador real
         req = urllib.request.Request(
-            SITEMAP_URL, 
-            headers={'User-Agent': 'Mozilla/5.0'}
+            URL_CATEGORIA, 
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         )
         with urllib.request.urlopen(req) as response:
-            xml_data = response.read()
+            html_content = response.read().decode('utf-8')
             
-        root = ET.fromstring(xml_data)
-        # El sitemap usa namespaces de XML de Google
-        namespace = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+        # Buscamos enlaces de artículos de descarga usando expresiones regulares en el HTML
+        # Esto captura los links que van a /descargar-.../
+        patron_links = re.findall(r'href="(https://nextnovels.com/descargar-[^"]+)"', html_content)
         
-        # Recorrer las URLs del sitemap (limitamos a las últimas 20 para la prueba inicial)
-        for url in root.findall('ns:url', namespace):
-            loc = url.find('ns:loc', namespace).text
+        # Eliminamos duplicados manteniendo el orden
+        links_unicos = list(dict.fromkeys(patron_links))
+        
+        for loc in links_unicos:
+            # Limpiamos el título a partir de la URL de forma legible
+            slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
+            titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
             
-            # Filtramos solo las páginas de descarga de novelas
-            if loc and "descargar-" in loc:
-                # Generamos un título limpio basado en la URL
-                titulo_slug = loc.split("descargar-")[1].replace("-en-espanol/", "").replace("-", " ").title()
-                
-                pub = {
-                    "metadata": {
-                        "title": titulo_slug,
-                        "numberOfItems": 1
-                    },
-                    "links": [
-                        {
-                            "rel": "alternate",
-                            "type": "text/html",
-                            "href": loc
-                        }
-                    ],
-                    "readingOrder": [
-                        {
-                            "type": "application/epub+zip",
-                            "href": loc,  # Enlace a la ficha o descarga directa
-                            "title": "Ver / Descargar Novela"
-                        }
-                    ]
-                }
-                publications.append(pub)
+            pub = {
+                "metadata": {
+                    "title": titulo,
+                    "numberOfItems": 1
+                },
+                "links": [
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": loc
+                    }
+                ],
+                "readingOrder": [
+                    {
+                        "type": "application/epub+zip",
+                        "href": loc,
+                        "title": "Ver / Descargar Novela"
+                    }
+                ]
+            }
+            publications.append(pub)
                 
     except Exception as e:
         print(f"Error al conectar con la web: {e}")
@@ -66,7 +65,6 @@ def generar_opds():
         "publications": obtener_novelas()
     }
     
-    # Guardar el resultado en un archivo JSON estándar para OPDS 2.0
     with open("catalogo.json", "w", encoding="utf-8") as f:
         json.dump(catalogo, f, ensure_ascii=False, indent=4)
     print("¡Catálogo OPDS generado con éxito!")
