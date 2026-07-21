@@ -1,11 +1,11 @@
-import json
 import urllib.request
 import re
+from xml.sax.saxutils import escape
 
 URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/"
 
 def obtener_novelas():
-    publications = []
+    entradas = []
     try:
         req = urllib.request.Request(
             URL_CATEGORIA, 
@@ -16,53 +16,47 @@ def obtener_novelas():
             
         patron_links = re.findall(r'href="(https://nextnovels.com/descargar-[^"]+)"', html)
         if not patron_links:
-            return []
+            return ""
             
         links_unicos = list(dict.fromkeys(patron_links))
         
-        for loc in links_unicos[:5]:
+        for loc in links_unicos[:10]:
             slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
             titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
             
-            pub = {
-                "metadata": {
-                    "title": titulo,
-                    "numberOfItems": 1
-                },
-                "links": [
-                    {
-                        "rel": "alternate",
-                        "type": "text/html",
-                        "href": loc
-                    }
-                ],
-                "readingOrder": [
-                    {
-                        "type": "application/epub+zip",
-                        "href": loc,
-                        "title": "Ver / Descargar Novela"
-                    }
-                ]
-            }
-            publications.append(pub)
+            # Construimos la entrada en formato XML Atom (OPDS 1.2)
+            entrada = f"""    <entry>
+        <title>{escape(titulo)}</title>
+        <id>{escape(loc)}</id>
+        <updated>2026-01-01T00:00:00Z</updated>
+        <link href="{escape(loc)}" type="text/html" rel="alternate"/>
+        <link href="{escape(loc)}" type="application/epub+zip" rel="http://opds-spec.org/acquisition"/>
+    </entry>"""
+            entradas.append(entrada)
+            
     except Exception as e:
         print(f"Error: {e}")
         
-    return publications
+    return "\n".join(entradas)
 
 def generar_opds():
-    novelas = obtener_novelas()
-    catalogo = {
-        "metadata": {
-            "title": "Next Novels - OPDS Catalog",
-            "conformsTo": "https://opds-spec.org/opds-2.0"
-        },
-        "publications": novelas
-    }
+    items = obtener_novelas()
     
-    with open("catalogo.json", "w", encoding="utf-8") as f:
-        json.dump(catalogo, f, ensure_ascii=False, indent=4)
-    print("¡Catálogo OPDS generado con éxito!")
+    xml_contenido = f"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
+    <title>Next Novels - OPDS Catalog</title>
+    <id>urn:uuid:next-novels-opds</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <author>
+        <name>Deiviz25</name>
+    </author>
+{items}
+</feed>"""
+    
+    # Guardamos como .xml en lugar de .json
+    with open("catalogo.xml", "w", encoding="utf-8") as f:
+        f.write(xml_contenido)
+    print("¡Catálogo OPDS XML generado con éxito!")
 
 if __name__ == "__main__":
     generar_opds()
