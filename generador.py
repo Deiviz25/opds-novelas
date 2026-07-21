@@ -1,9 +1,9 @@
 import urllib.request
 import re
 from xml.sax.saxutils import escape
-
+ 
 URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/page/"
-
+ 
 def extraer_enlace_epub(url_articulo):
     """Entra a la página de la novela para buscar el enlace de descarga real del archivo EPUB."""
     try:
@@ -14,17 +14,33 @@ def extraer_enlace_epub(url_articulo):
         with urllib.request.urlopen(req) as response:
             html = response.read().decode('utf-8')
             
-        # Busca enlaces directos a ficheros epub o servidores de descarga comunes en el post
+        # Dominios de descarga habituales usados por nextnovels.com
+        dominios_validos = (
+            '.epub', 'mega.nz', 'mediafire.com', 'drive.google.com',
+            'terabox.com', '1024terabox.com', 'mirrobox.com', 'nephobox.com'
+        )
+ 
+        # Busca específicamente dentro de los botones "Descargar" (evita coger
+        # enlaces de "Ver"/"Leer" que apuntan a Crunchyroll, YupManga, etc.)
+        botones = re.findall(
+            r'<a[^>]+class="[^"]*et_pb_button[^"]*"[^>]+href="(https?://[^"]+)"[^>]*>\s*Descargar\s*</a>',
+            html
+        )
+        for link in botones:
+            if any(d in link.lower() for d in dominios_validos):
+                return link
+ 
+        # Respaldo: busca en todo el HTML por si el botón no coincide con el patrón anterior
         matches = re.findall(r'href="(https?://[^"]+)"', html)
         for link in matches:
-            if '.epub' in link.lower() or 'mega.nz' in link or 'mediafire.com' in link or 'drive.google.com' in link:
+            if any(d in link.lower() for d in dominios_validos):
                 return link
     except Exception:
         pass
     
     # Si no encuentra un enlace externo, devuelve el enlace del artículo como respaldo
     return url_articulo
-
+ 
 def obtener_novelas():
     entradas = []
     links_procesados = set()
@@ -63,7 +79,7 @@ def obtener_novelas():
             print(f"Error en página {num_pagina}: {e}")
             
     return "\n".join(entradas)
-
+ 
 def generar_opds():
     items = obtener_novelas()
     
@@ -81,6 +97,6 @@ def generar_opds():
     with open("catalogo.xml", "w", encoding="utf-8") as f:
         f.write(xml_contenido)
     print("¡Catálogo OPDS XML ampliado generado con éxito!")
-
+ 
 if __name__ == "__main__":
     generar_opds()
