@@ -2,41 +2,66 @@ import urllib.request
 import re
 from xml.sax.saxutils import escape
 
-URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/"
+URL_CATEGORIA = "https://nextnovels.com/category/novela-ligera/page/"
 
-def obtener_novelas():
-    entradas = []
+def extraer_enlace_epub(url_articulo):
+    """Entra a la página de la novela para buscar el enlace de descarga real del archivo EPUB."""
     try:
         req = urllib.request.Request(
-            URL_CATEGORIA, 
-            headers={'User-Agent': 'Mozilla/5.0'}
+            url_articulo, 
+            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         )
         with urllib.request.urlopen(req) as response:
             html = response.read().decode('utf-8')
             
-        patron_links = re.findall(r'href="(https://nextnovels.com/descargar-[^"]+)"', html)
-        if not patron_links:
-            return ""
+        # Busca enlaces directos a ficheros epub o servidores de descarga comunes en el post
+        matches = re.findall(r'href="(https?://[^"]+)"', html)
+        for link in matches:
+            if '.epub' in link.lower() or 'mega.nz' in link or 'mediafire.com' in link or 'drive.google.com' in link:
+                return link
+    except Exception:
+        pass
+    
+    # Si no encuentra un enlace externo, devuelve el enlace del artículo como respaldo
+    return url_articulo
+
+def obtener_novelas():
+    entradas = []
+    links_procesados = set()
+    
+    # Recorremos las primeras 3 páginas de la categoría para no coger solo la portada
+    for num_pagina in range(1, 4):
+        url_pag = f"{URL_CATEGORIA}{num_pagina}/" if num_pagina > 1 else "https://nextnovels.com/category/novela-ligera/"
+        try:
+            req = urllib.request.Request(
+                url_pag, 
+                headers={'User-Agent': 'Mozilla/5.0'}
+            )
+            with urllib.request.urlopen(req) as response:
+                html = response.read().decode('utf-8')
+                
+            patron_links = re.findall(r'href="(https://nextnovels.com/descargar-[^"]+)"', html)
             
-        links_unicos = list(dict.fromkeys(patron_links))
-        
-        for loc in links_unicos[:10]:
-            slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
-            titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
-            
-            # Construimos la entrada en formato XML Atom (OPDS 1.2)
-            entrada = f"""    <entry>
+            for loc in patron_links:
+                if loc not in links_procesados:
+                    links_procesados.add(loc)
+                    slug = loc.replace("https://nextnovels.com/descargar-", "").replace("/", "")
+                    titulo = slug.replace("-en-espanol", "").replace("-", " ").title()
+                    
+                    # Obtenemos el enlace de descarga real
+                    enlace_descarga = extraer_enlace_epub(loc)
+                    
+                    entrada = f"""    <entry>
         <title>{escape(titulo)}</title>
         <id>{escape(loc)}</id>
         <updated>2026-01-01T00:00:00Z</updated>
         <link href="{escape(loc)}" type="text/html" rel="alternate"/>
-        <link href="{escape(loc)}" type="application/epub+zip" rel="http://opds-spec.org/acquisition"/>
+        <link href="{escape(enlace_descarga)}" type="application/epub+zip" rel="http://opds-spec.org/acquisition"/>
     </entry>"""
-            entradas.append(entrada)
+                    entradas.append(entrada)
+        except Exception as e:
+            print(f"Error en página {num_pagina}: {e}")
             
-    except Exception as e:
-        print(f"Error: {e}")
-        
     return "\n".join(entradas)
 
 def generar_opds():
@@ -53,10 +78,9 @@ def generar_opds():
 {items}
 </feed>"""
     
-    # Guardamos como .xml en lugar de .json
     with open("catalogo.xml", "w", encoding="utf-8") as f:
         f.write(xml_contenido)
-    print("¡Catálogo OPDS XML generado con éxito!")
+    print("¡Catálogo OPDS XML ampliado generado con éxito!")
 
 if __name__ == "__main__":
     generar_opds()
