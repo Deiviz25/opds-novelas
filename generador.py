@@ -3,14 +3,27 @@ UPDATED = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 import urllib.request
 import urllib.error
 import re
+import time
 from html.parser import HTMLParser
 from xml.sax.saxutils import escape
+
+try:
+    import cloudscraper
+    _SCRAPER = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
+    )
+except ImportError:
+    _SCRAPER = None
 
 URL_INDICE_VISUAL = "https://nextnovels.com/indice-visual-oriente/"
 URL_CATEGORIA_BASE = "https://nextnovels.com/category/novela-ligera/"
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                  '(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+    'Referer': 'https://nextnovels.com/',
 }
 
 MAX_PAGINAS = 200
@@ -46,15 +59,40 @@ class IndexParser(HTMLParser):
                     })
 
 
-def _descargar_html(url):
-    """Descarga HTML con manejo de errores"""
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=20) as response:
-            return response.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"Error descargando {url}: {e}")
-        return None
+def _descargar_html(url, reintentos=2):
+    """Descarga HTML con manejo de errores. Usa cloudscraper si está disponible
+    (para evitar bloqueos anti-bot tipo Cloudflare/Wordfence en runners de CI),
+    con urllib como respaldo."""
+    ultimo_error = None
+    for intento in range(reintentos + 1):
+        try:
+            if _SCRAPER is not None:
+                resp = _SCRAPER.get(url, headers=HEADERS, timeout=20)
+                status = resp.status_code
+                html = resp.text
+            else:
+                req = urllib.request.Request(url, headers=HEADERS)
+                with urllib.request.urlopen(req, timeout=20) as response:
+                    status = response.status
+                    html = response.read().decode('utf-8', errors='ignore')
+
+            if status != 200:
+                raise RuntimeError(f"HTTP {status}")
+
+            # Diagnóstico: si la página no parece la real (p.ej. un challenge
+            # anti-bot), avisar en el log en vez de fallar en silencio.
+            if 'nextnovels' not in html.lower() and 'novela' not in html.lower():
+                print(f"Aviso: respuesta sospechosa de {url} (¿bloqueo anti-bot?). "
+                      f"Primeros 200 caracteres: {html[:200]!r}")
+
+            return html
+        except Exception as e:
+            ultimo_error = e
+            if intento < reintentos:
+                time.sleep(3 * (intento + 1))
+
+    print(f"Error descargando {url}: {ultimo_error}")
+    return None
 
 
 def obtener_novelas_desde_indice():
@@ -109,6 +147,7 @@ def obtener_novelas_desde_categoria():
                 }
         
         print(f"Categoría pág. {num_pagina}: {len(encontrados)} links encontrados")
+        time.sleep(1)
     
     return novelas_dict
 
