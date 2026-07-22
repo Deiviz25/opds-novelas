@@ -1,44 +1,44 @@
 name: Actualizar Catálogo OPDS
-
+ 
 on:
   push:
     branches: [ main, master ]
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+ 
     steps:
     - name: Copiar repositorio
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-
+ 
     - name: Configurar Git
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+ 
     - name: Sincronizar con remoto (Pull)
       run: |
         git pull origin main --rebase || git pull origin master --rebase
-
+ 
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-
+ 
     - name: Ejecutar generador
       run: python generador.py
-
+ 
     - name: Subir cambios a GitHub Pages
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Actualización automática del catálogo XML"
-        file_pattern: catalogo.xml
+        file_pattern: catalogo*.xml
         push_options: '--force'
