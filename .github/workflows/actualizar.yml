@@ -1,44 +1,36 @@
 name: Actualizar Catálogo OPDS
- 
+
 on:
-  push:
-    branches: [ main, master ]
+  workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
-  workflow_dispatch:
- 
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
- 
     steps:
-    - name: Copiar repositorio
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
- 
-    - name: Configurar Git
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
- 
-    - name: Sincronizar con remoto (Pull)
-      run: |
-        git pull origin main --rebase || git pull origin master --rebase
- 
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
- 
-    - name: Ejecutar generador
-      run: python generador.py
- 
-    - name: Subir cambios a GitHub Pages
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Actualización automática del catálogo XML"
-        file_pattern: catalogo*.xml
-        push_options: '--force'
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - run: pip install requests beautifulsoup4
+
+      - run: python generador.py
+
+      - run: |
+          git status
+          git diff --name-only
+
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_message: "Actualización automática del catálogo XML"
+          file_pattern: |
+            catalogo.xml
+            catalogo-*.xml
