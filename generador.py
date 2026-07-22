@@ -27,7 +27,12 @@ HEADERS = {
 }
 
 MAX_PAGINAS = 200
-NOVELAS_POR_PAGINA_FEED = 30
+# Nº de novelas por página del feed. Se sube bastante (por encima del total
+# actual de ~670) para que todo el catálogo quepa en catalogo.xml y el
+# lector OPDS no obligue a ir pasando página a página. Si el catálogo crece
+# mucho más allá de esto, el script seguirá funcionando: simplemente
+# empezará a crear catalogo-2.xml, catalogo-3.xml, etc. automáticamente.
+NOVELAS_POR_PAGINA_FEED = 2000
 
 
 class IndexParser(HTMLParser):
@@ -238,6 +243,23 @@ def generar_feed_pagina(entradas_xml, num_pagina, total_paginas):
     print(f"Generado {nombre_archivo}")
 
 
+def _listar_paginas_existentes():
+    """Devuelve los números de página de los catalogo*.xml presentes en el directorio actual"""
+    import os
+    numeros = set()
+    for nombre in os.listdir('.'):
+        if nombre == 'catalogo.xml':
+            numeros.add(1)
+        else:
+            m = re.match(r'^catalogo-(\d+)\.xml$', nombre)
+            if m:
+                numeros.add(int(m.group(1)))
+    return numeros
+
+
+UMBRAL_MINIMO_NOVELAS = 50  # por debajo de esto, probablemente hubo un bloqueo/scrape fallido
+
+
 def generar_opds():
     print("Extrayendo novelas del índice visual...")
     novelas = obtener_novelas_desde_indice()
@@ -249,6 +271,13 @@ def generar_opds():
     novelas.update(novelas_cat)
     
     print(f"Total de novelas únicas: {len(novelas)}")
+
+    if len(novelas) < UMBRAL_MINIMO_NOVELAS:
+        print(f"ABORTANDO: solo se encontraron {len(novelas)} novelas (mínimo esperado "
+              f"{UMBRAL_MINIMO_NOVELAS}). Esto suele indicar un bloqueo anti-bot o un "
+              f"cambio en la web, no que el catálogo real se haya reducido. No se "
+              f"sobrescribe el catálogo existente.")
+        return
     
     print("Procesando novelas...")
     todas_las_entradas = []
@@ -271,10 +300,17 @@ def generar_opds():
     print(f"Generando {len(bloques)} página(s) del feed...")
     for idx, bloque in enumerate(bloques, 1):
         generar_feed_pagina(bloque, idx, len(bloques))
+
+    # Limpiar páginas de una ejecución anterior que ya no hacen falta
+    import os
+    paginas_actuales = set(range(1, len(bloques) + 1))
+    for num in _listar_paginas_existentes() - paginas_actuales:
+        nombre = "catalogo.xml" if num == 1 else f"catalogo-{num}.xml"
+        os.remove(nombre)
+        print(f"Eliminado {nombre} (ya no hace falta)")
     
     print(f"¡Catálogo OPDS generado con éxito! {len(bloques)} páginas, {len(todas_las_entradas)} novelas.")
 
 
 if __name__ == "__main__":
     generar_opds()
-
