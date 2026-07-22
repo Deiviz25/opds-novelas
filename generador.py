@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+UPDATED = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 import urllib.request
 import urllib.error
 import re
@@ -156,7 +158,7 @@ def construir_entrada(loc, titulo, img=None):
     return f"""    <entry>
         <title>{escape(titulo)}</title>
         <id>{escape(loc)}</id>
-        <updated>2026-01-01T00:00:00Z</updated>
+        <updated>{UPDATED}</updated>
         {tag_summary}
         <link href="{escape(loc)}" type="text/html" rel="alternate"/>
         <link href="{escape(enlace_descarga)}" type="{tipo_mime}" rel="http://opds-spec.org/acquisition"/>
@@ -181,7 +183,7 @@ def generar_feed_pagina(entradas_xml, num_pagina, total_paginas):
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">
     <title>Next Novels - OPDS Catalog (pág. {num_pagina}/{total_paginas})</title>
     <id>urn:uuid:next-novels-opds-{num_pagina}</id>
-    <updated>2026-01-01T00:00:00Z</updated>
+    <updated>{UPDATED}</updated>
     <author>
         <name>Deiviz25</name>
     </author>
@@ -236,3 +238,4 @@ def generar_opds():
 
 if __name__ == "__main__":
     generar_opds()
+
